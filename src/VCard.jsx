@@ -18,7 +18,7 @@ const ValentinesCard = () => {
 
         .card {
           width: 100%;
-          height: 600px;  /* Taller card for desktop */
+          height: 605px;  /* Taller card for desktop */
           position: relative;
           transform-style: preserve-3d;
           transition: transform 1s;
@@ -65,7 +65,7 @@ const ValentinesCard = () => {
           max-width: 90%;
           max-height: 70%;
           border-radius: 12px;
-          margin-bottom: 10px;
+          margin-bottom: 8px;
         }
 
         /* Responsive adjustments for screens up to 600px wide */
@@ -103,7 +103,9 @@ const ValentinesCard = () => {
           </div>
           <div className="card-face card-back">
             <img src="https://i.imgur.com/DxNRuHO.jpeg" alt="Valentine's Day" />
-            <p>I love Chavz, happy valentine</p>
+            <h2>I love Chavz, happy valentine</h2>
+            <br />
+            <p>~ your favourite (and only) dummy</p>
           </div>
         </div>
       </div>
