@@ -102,7 +102,7 @@ const ValentinesCard = () => {
             <p>Tap to open your card</p>
           </div>
           <div className="card-face card-back">
-            <img src="src/assets/image.jpeg" alt="Valentine's Day" />
+            <img src="https://i.imgur.com/DxNRuHO.jpeg" alt="Valentine's Day" />
             <p>I love Chavz, happy valentine</p>
           </div>
         </div>
